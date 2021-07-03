@@ -4,18 +4,18 @@ global:
   "Activities": "活动"
   "Admin": "管理员"
   "Alliance Depot": "联盟太空站"
-  "Anti-Ballistic Missiles": "反弹道导弹"
+  "Anti-Ballistic Missiles": "反导导弹"
   "Are you sure?": "您确定吗?"
   "Armour Technology": "防御盾技术"
-  "Arrive in": "抵达剩馀"
+  "Arrive in": "抵达剩馀时间"
   "Astrophysics": "天体物体学"
   "Attack": "攻击"
   "Battlecruiser": "战斗巡洋舰"
   "Battleship": "战列舰"
-  "Bomber": "导弹舰"
+  "Bomber": "轰炸机"
   "Bot": "机器人"
   "Bots": "机器人们"
-  "Brain": "大脑(建设)"
+  "Brain": "基建机器人"
   "Browser": "浏览器"
   "Cargo capacity": "货舱容量"
   "Colonize": "殖民"
@@ -27,15 +27,15 @@ global:
   "Cruiser": "巡洋舰"
   "Crystal": "晶体"
   "Crystal Mine": "晶体矿"
-  "Crystal Storage": "晶体储存器"
+  "Crystal Storage": "晶体仓库"
   "Deathstar": "死星"
-  "Defender": "防御者"
+  "Defender": "防御机器人"
   "Destination": "目的地"
   "Destroy": "毁月"
   "Destroyer": "毁灭者"
   "Deuterium": "重氢"
   "Deuterium Synthesizer": "重氢合成器"
-  "Deuterium Tank": "重氢储存器"
+  "Deuterium Tank": "重氢仓库"
   "Download": "下载"
   "Email": "电子信箱"
   "Empire": "帝国"
@@ -45,57 +45,57 @@ global:
   "Expedition": "探险"
   "Expeditions": "探险"
   "FAQ": "常见问题"
-  "Farmer": "耕作者(刮I)"
+  "Farmer": "刮I机器人"
   "Features": "特色"
   "Flights": "飞行中舰队"
   "Fuel consumption": "燃料消耗"
-  "Fusion Reactor": "核融合反应器"
+  "Fusion Reactor": "核电厂"
   "Galaxy": "银河系"
-  "Gauss Cannon": "磁轨砲"
+  "Gauss Cannon": "高斯炮"
   "Graviton Technology": "重子技术"
   "Grouped Attack": "联合攻击"
   "Harvest": "收割"
   "Heavy Fighter": "重型战斗机"
-  "Heavy Laser": "重型雷射砲"
+  "Heavy Laser": "重型激光炮"
   "Home": "首页"
   "Honour points": "荣誉分数"
-  "Hunter": "猎人"
+  "Hunter": "狩猎机器人"
   "Hyperspace Drive": "超空间引擎"
   "Hyperspace Technology": "超空间科技"
   "Impulse Drive": "脉冲引擎"
   "Intergalactic Research Network": "星际研究网路"
   "Interplanetary Missiles": "星际导弹"
-  "Ion Cannon": "离子加农砲"
+  "Ion Cannon": "中子炮"
   "Ion Technology": "离子技术"
   "Jump Gate": "空间跳跃门"
   "Large Cargo": "大型运输舰"
   "Large Shield Dome": "大型防护罩"
-  "Laser Technology": "雷射技术"
-  "License": "凭证"
+  "Laser Technology": "激光技术"
+  "License": "许可证"
   "Light Fighter": "轻型战斗机"
-  "Light Laser": "轻型雷射砲"
+  "Light Laser": "轻型激光砲"
   "Login": "登入"
   "Logs": "纪录"
   "Lunar Base": "月球基地"
   "Map": "星图"
   "Metal": "金属"
   "Metal Mine": "金属矿"
-  "Metal Storage": "金属储存器"
+  "Metal Storage": "金属仓库"
   "Missile Attack": "导弹攻击"
-  "Missile Silo": "导弹發射井"
+  "Missile Silo": "导弹发射井"
   "Mission": "任务"
   "Moon": "月球"
-  "Nanite Factory": "奈米机器人工厂"
+  "Nanite Factory": "纳米机器人工厂"
   "Next": "下页"
   "No": "否"
-  "Origin": "出發地"
+  "Origin": "出发地"
   "Overview": "总览"
   "Park": "派遣"
   "Pathfinder": "探路者"
   "Pathfinders": "探路者"
   "Password": "密码"
-  "Plasma Technology": "电浆技术"
-  "Plasma Turret": "电浆砲塔"
+  "Plasma Technology": "等离子技术"
+  "Plasma Turret": "等离子武器"
   "Points": "分数"
   "Prev": "上页"
   "Pricing": "计价"
@@ -108,8 +108,8 @@ global:
   "Research Lab": "研究实验室"
   "Research Network": "研究网路"
   "Robotics Factory": "机器人工厂"
-  "Rocket Launcher": "飞弹發射器"
-  "Scanner": "扫描者"
+  "Rocket Launcher": "火箭发射器"
+  "Scanner": "扫描机器人"
   "Scripts": "脚本"
   "Sensor Phalanx": "感应阵列"
   "Servers": "伺服器"
@@ -119,14 +119,14 @@ global:
   "Shielding Technology": "防御盾技术"
   "Shipyard": "造船厂"
   "Sign out": "登出"
-  "Simulator": "模碍器"
+  "Simulator": "模拟器"
   "Small Cargo": "小型运输舰"
   "Small Shield Dome": "小型防护罩"
-  "Solar Plant": "太阳能發电厂"
+  "Solar Plant": "太阳能发电厂"
   "Solar Satellite": "太阳能卫星"
   "Space Dock": "宇宙港"
   "Speed": "速度"
-  "Spy": "间谍"
+  "Spy": "探测"
   "Start": "开始"
   "Stop": "停止"
   "Structural integrity": "结构强度"
@@ -268,11 +268,11 @@ antigame:
   "title": "" # global (undefined)
 bot.browser:
   "Empire page": "帝国页面"
-  "Fullscreen": "全萤幕"
+  "Fullscreen": "全屏"
   "Toggle manual mode": "手动模式"
 bot.conqueror:
-  "Get spy reports": "取得间谍报告" # global (undefined)
-  "No espionage report to show": "无间谍报告可显示"
+  "Get spy reports": "取得探测报告" # global (undefined)
+  "No espionage report to show": "无探测报告可显示"
 bot.empire:
   "Actions": "" # global (undefined)
   "Alliance Depot": "" # global (undefined)
@@ -307,7 +307,7 @@ bot.empire:
   "Espionage Technology": "" # global (undefined)
   "Fields": "方圆"
   "Fusion Reactor": "" # global (undefined)
-  "Fusion reactor setting": "核融合反应器设定"
+  "Fusion reactor setting": "核电厂设定"
   "Gauss Cannon": "" # global (undefined)
   "Graviton Technology": "" # global (undefined)
   "Heavy Fighter": "" # global (undefined)
@@ -338,7 +338,7 @@ bot.empire:
   "Plasma Turret": "" # global (undefined)
   "Points": "" # global (undefined)
   "Rank": "" # global (undefined)
-  "Reaper": "恶魔飞船" # global (undefined)
+  "Reaper": "收割者" # global (undefined)
   "Recycler": "" # global (undefined)
   "Reorder planets": "重新排列行星" # global (undefined)
   "Research Lab": "" # global (undefined)
@@ -406,7 +406,7 @@ bot.flights:
   "Large Cargo": "" # global (undefined)
   "Light Fighter": "" # global (undefined)
   "Metal": "" # global (undefined)
-  "Missile Attack": "导弹攻击弹" # global (undefined)
+  "Missile Attack": "星际导弹" # global (undefined)
   "Mission": "任务" # global (undefined)
   "Moon": "月球" # global (undefined)
   "No cron job at the moment": "当前并无任务时间表"
@@ -421,7 +421,7 @@ bot.flights:
   "Park In That Ally": "派遣至友军" # global (undefined)
   "Pathfinder": "" # global (undefined)
   "Planet": "行星" # global (undefined)
-  "Reaper": "恶魔飞船" # global (undefined)
+  "Reaper": "收割者" # global (undefined)
   "Recycle debris field": ""
   "Recycler": "" # global (undefined)
   "Resources to": "资源"
@@ -602,8 +602,8 @@ bot.report:
   "Terraformer": "" # global (undefined)
   "Weapons Technology": "" # global (undefined)
 bot.scripts:
-  "Edit file name": "编辑档案名称"
-  "Pause/unpause": "暂停/取消暂停"
+  "Edit file name": "编辑脚本名称"
+  "Pause/unpause": "暂停/恢复"
   "Run": "执行"
   "Run at start": "(于开启时)自动执行" # global (undefined)
   "Stop": "停止" # global (undefined)
@@ -621,10 +621,10 @@ bot.settings.activities:
   "Prev": "上页" # global (undefined)
 bot.settings.brain:
   "AI": ""
-  "AI configs": "人工智能设定"
-  "Brain active": "启用大脑(建设)"
-  "Brain configs": "大脑(建设)设定"
-  "Build fusion reactor up to": "建造核融合反应器至"
+  "AI configs": "AI设定"
+  "Brain active": "基建机器人启动"
+  "Brain configs": "基建机器人设定"
+  "Build fusion reactor up to": "建造核电厂至"
   "Build jump gate": "建造空间跳跃门"
   "Build solar satellites": "建造太卫"
   "Crystal mine": ""
@@ -633,16 +633,16 @@ bot.settings.brain:
   "Deuterium synthesizer": ""
   "Deuterium tank": ""
   "Export within same galaxy only": "只在同一银河系内运输"
-  "Exporter?": "运出？"
+  "Exporter?": "运出地？"
   "Fusion reactor": ""
-  "Importer?": "接收？"
+  "Importer?": "接收地？"
   "Max crystal mine level to build": "最高晶体矿等级"
   "Max crystal storage level to build": "最高晶体储存器等级"
   "Max deut synth level to build": "最高重氢合成器等级"
   "Max deuterium tank level to build": "最高重氢储存器等级"
   "Max metal mine level to build": "最高金属矿等级"
   "Max metal storage level to build": "最高金属储存器等级"
-  "Max missile silo level to build": "最高导弹發射器等级"
+  "Max missile silo level to build": "最高导弹发射井等级"
   "Max nanite factory level to build": "最高奈米机器人工厂等级"
   "Max research lab level to build": "最高研究实验室等级"
   "Max robotics factory level to build": "最高机器人工厂等级"
@@ -656,7 +656,7 @@ bot.settings.brain:
   "Nanite factory": ""
   "None": "无" # global (undefined)
   "Planet": "行星" # global (undefined)
-  "Prevent importing if come back during sleep time": "不要在睡觉时间接收资源"
+  "Prevent importing if come back during sleep time": "不要在休眠时间接收资源"
   "Queue": "排程" # global (undefined)
   "Research lab": ""
   "Robotics factory": ""
@@ -673,14 +673,14 @@ bot.settings.defender:
   "2-steps (planets then moons)": "两阶段 (先到行星再到月球)"
   "Active": "启用"
   "Always": "常开"
-  "Build ABM on missiles attack detected": "受导弹攻击时造反弹道导弹"
+  "Build ABM on missiles attack detected": "受导弹攻击时造反导导弹"
   "Checks for activity from homeworld": "从母星检查活动"
   "Check interval": "检查间隔"
   "Checks for activity from latest active planet/moon": "从最近活动的行星/月球检查"
   "Dangerous": "危险时"
   "Destination": "目的地"
-  "Defender active": "启用防御者"
-  "Defender configs": "防御者设定"
+  "Defender active": "启用防御机器人"
+  "Defender configs": "防御机器人设定"
   "Defender will ignore attacks from players in this list": "忽略此名单中攻击者"
   "Desktop notification when attacked": "攻击时桌面通知"
   "Dump remaining resources in defenses": "剩馀资源全造防御"
@@ -695,7 +695,7 @@ bot.settings.defender:
   "Play sound when attacked": "受攻击时播放音效"
   "Preferred destination": "喜好目的地"
   "Prevent if come back during sleep time": "若在睡觉时间返回则不要派出"
-  "Probe new attackers": "探险新的攻击者"
+  "Probe new attackers": "探测新的攻击者"
   "Origin": "出發地"
   "Randomize moon that checks for activity": "随机选择月球以检查活动"
   "Randomize planet/moon that checks for activity": "随机选择行星/月球以检查活动"
@@ -717,7 +717,7 @@ bot.settings.expeditionMessages:
   "Actions": "" # global (undefined)
   "Category": "分类" # global (undefined)
   "Coordinate": "座标" # global (undefined)
-  "Espionage report": "间谍报告" # global (undefined)
+  "Espionage report": "探测报告" # global (undefined)
   "Expedition": "探险" # global (undefined)
   "Extract expedition messages": "提取探险讯息"
   "InGame date": "游戏内日期" # global (undefined)
